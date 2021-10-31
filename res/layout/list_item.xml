@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/viewProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10sp"
+            android:text="Наименование: "
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:id="@+id/viewProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10sp"
+            android:textSize="20sp"
+            android:text="Цена(BYN): ">
+        </TextView>
+        <TextView
+            android:id="@+id/viewProductAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10sp"
+            android:textSize="20sp"
+            android:text="Количество: ">
+        </TextView>
+        <TextView
+            android:id="@+id/viewProductDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10sp"
+            android:textSize="20sp"
+            android:text="Дата поступления: ">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
